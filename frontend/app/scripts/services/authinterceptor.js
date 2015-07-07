@@ -7,7 +7,7 @@ angular.module('jwtApp')
         var token = authToken.getToken();
 
         if(token)
-            config.headers.Authorization = 'Bearer'+token;
+            config.headers.Authorization = 'Bearer '+token;
 
         return config;
       },
